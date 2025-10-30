@@ -84,7 +84,6 @@ contract DynamicSvgNft is ERC721, Ownable {
      * @return The complete token URI with base64-encoded JSON metadata
      */
     function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
-        // FIX: Use _ownerOf instead of _exists (OpenZeppelin v5.0+)
         if (_ownerOf(tokenId) == address(0)) {
             revert DynamicSvgNft__NonExistentToken();
         }

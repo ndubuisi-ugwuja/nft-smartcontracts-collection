@@ -1,3 +1,5 @@
 {
-  "RandomIpfsNftModule#RandomIpfsNft": "0x4dA12bB6CA9Ba275Cc9b8164B66B896B3459733e"
+  "RandomIpfsNftModule#RandomIpfsNft": "0x4dA12bB6CA9Ba275Cc9b8164B66B896B3459733e",
+  "DynamicSvgNftModule#DynamicSvgNft": "0x616baD5261368F892CC13337E649Ea649A0ADa23",
+  "BasicNftModule#BasicNft": "0x5F159c9770D413384623409070B4C4ACb598D04e"
 }
