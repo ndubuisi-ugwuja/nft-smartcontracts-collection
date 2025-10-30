@@ -168,10 +168,18 @@ Unit tests are written using Mocha and Chai, covering:
 - Chainlink oracle responses
 - ERC721 compliance
 
-#### Run all tests:
+#### Run unit tests:
 
 ```bash
 yarn hardhat test
+```
+
+#### Run staging tests:
+
+```bash
+yarn hardhat test test/staging/BasicNft_staging_test.js --network sepolia
+yarn hardhat test test/staging/DynamicSvgNft_staging_test.js --network sepolia
+yarn hardhat test test/staging/RandomIpfsNft_staging_test.js --network sepolia
 ```
 
 ## 5. Deployments
