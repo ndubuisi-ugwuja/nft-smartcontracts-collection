@@ -177,9 +177,7 @@ yarn hardhat test
 #### Run staging tests:
 
 ```bash
-yarn hardhat test test/staging/BasicNft_staging_test.js --network sepolia
-yarn hardhat test test/staging/DynamicSvgNft_staging_test.js --network sepolia
-yarn hardhat test test/staging/RandomIpfsNft_staging_test.js --network sepolia
+yarn hardhat test --network sepolia
 ```
 
 ## 5. Deployments
